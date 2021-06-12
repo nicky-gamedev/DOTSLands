@@ -1,0 +1,23 @@
+{
+    "name": "DOTSNET.Examples.Chat",
+    "references": [
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:63afb046c8423dd448ae7aba042ea63d",
+        "GUID:a5baed0c9693541a5bd947d336ec7659",
+        "GUID:5182f6bcda6d54f709397a803d8cc997",
+        "GUID:ef143a3ef881b4fb4a3221a2d0903b49",
+        "GUID:544a2e08e45fc4d979b90ca6014de426"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

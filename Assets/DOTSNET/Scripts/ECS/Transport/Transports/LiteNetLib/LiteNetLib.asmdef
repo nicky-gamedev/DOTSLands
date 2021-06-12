@@ -1,0 +1,16 @@
+{
+    "name": "LiteNetLib",
+    "references": [
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:5182f6bcda6d54f709397a803d8cc997"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

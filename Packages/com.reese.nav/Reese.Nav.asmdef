@@ -1,0 +1,29 @@
+{
+    "name": "Reese.Nav",
+    "references": [
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Jobs",
+        "Unity.Mathematics",
+        "Unity.Mathematics.Extensions",
+        "Unity.Physics",
+        "Unity.Physics.Hybrid",
+        "Unity.Rendering.Hybrid",
+        "Unity.Transforms",
+        "Unity.Transforms.Hybrid",
+        "DOTSNET"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

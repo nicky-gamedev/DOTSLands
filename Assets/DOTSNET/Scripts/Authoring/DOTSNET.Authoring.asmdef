@@ -1,0 +1,19 @@
+{
+    "name": "DOTSNET.Authoring",
+    "references": [
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:8819f35a0fc84499b990e90a4ca1911f",
+        "GUID:5182f6bcda6d54f709397a803d8cc997",
+        "GUID:ef143a3ef881b4fb4a3221a2d0903b49"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

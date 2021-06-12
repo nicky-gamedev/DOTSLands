@@ -1,0 +1,22 @@
+The DOTSNET Documentation is available online:
+
+------------------------------------------------------------------------------------------------
+
+https://docs.google.com/document/d/14l5hz3QJ1Aw8nuVTrbrAtr-UoGBiXyvToW_tO5jYcQg/edit?usp=sharing
+
+------------------------------------------------------------------------------------------------
+
+Basic Usage Guide:
+  - Open one of the scenes in DOTSNET/Examples
+  - Press Play in the Editor
+  - Press "Start Server" to start the server.
+    (Check out the ServerWorld in the EntityDebugger)
+  - Press "Connect Client" to connect the client
+    (Check out the ClientWorld in the EntityDebugger)
+  - Use WSAD to control the Player
+
+Basic Architecture:
+  - DOTSNET uses Unity's ECS/DOTS technology
+  - If you are used to MonoBehaviour, then you have to relearn ECS from scratch
+
+Please read the online documentation!

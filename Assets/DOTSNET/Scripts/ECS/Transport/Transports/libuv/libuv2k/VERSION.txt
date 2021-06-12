@@ -1,0 +1,26 @@
+V0.15:
+  - perf: removed Send() runtime allocations from casting callback to uv_watcher_cb
+  - perf: removed Receive() runtime allocations from casting callback to Action
+
+V0.14:
+  - fix: WriteRequest Pool logic moved out of WriteRequest. Simplifies code and
+    fixes a bug where
+      Shutdown->Pool.Clear->WriteRequest.Dispose->WriteRequest.Close
+    would try to return to the pool that we are currently iterating (potential
+    dead lock / race condition)
+  - fix: [MonoPInvokeCallback] attribute added to C->C# callbacks to fix IL2CPP
+    builds runtime error "NotSupportedException: To marshal a managed method,
+    please add an attribute named 'MonoPInvokeCallback' to the method definition"
+  - perf: ConcurrentPool converted to regular Pool. libuv uses an event loop,
+    and the callbacks are always called in main thread
+V0.13:
+  - Windows 32 Bit support
+V0.12:
+  - fix: Windows DLL built in release mode to avoid missing dependencies causing
+    DllNotFoundException in Unity
+  - Server GetAddress implemented
+V0.11:
+  - fixes, perf, cleanup
+  - libuv binaries bumped to V1.39.0
+V0.10:
+  - feature complete

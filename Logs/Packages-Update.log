@@ -1,0 +1,9 @@
+
+=== Mon Oct 26 11:39:37 2020
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were updated:
+  com.unity.entities from version 0.13.0-preview.24 to 0.14.0-preview.19
+  com.unity.rendering.hybrid from version 0.7.0-preview.24 to 0.8.0-preview.19
